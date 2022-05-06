@@ -5,6 +5,7 @@ import SearchIcon from "./search.svg";
 import "./App.css";
 
 const API_URL = "https://www.omdbapi.com?apikey=d400495b";
+//TODO : need to find a way to cover key
 
 const App = () => {
   const [searchTerm, setSearchTerm] = useState("");
